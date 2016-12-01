@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_venta"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Recibo de venta" />
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="Listas" />
+        <item
+            android:id="@+id/nav_pedido"
+            android:icon="@drawable/ic_note_add_black"
+            android:title="Pedido a proveedor" />
+        <item
+            android:id="@+id/nav_finanza"
+            android:icon="@drawable/ic_attach_money_black"
+            android:title="Finanzas" />
+    </group>
+
+</menu>
